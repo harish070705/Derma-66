@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta charset="utf-8">
+
+<!-- disable iPhone scale -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>Skin diseas detection</title>
+<meta name="description" content="Take a photo of your skin lesion on a smartphone, and this will search the world’s largest dermatology textbook and show you the most relevant information.">
+<!-- main css -->
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<!-- media queries css -->
+<link href="css/media-queries.css" rel="stylesheet" type="text/css">
+<script  src="prefixfree/1-0-7/prefixfree.dynamic-dom.min.js"></script>
+<!-- jQuery -->
+<script src="ajax/libs/jquery/1-10-2/jquery.min.js"></script>
+<script src="ajax/libs/jqueryui/1-8/jquery-ui.min.js"></script>
+<script src="js/jsapi.js"></script>
+<script  src="js/main.js"></script>
+<!-- Google Analytics tracking code -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-48354920-1', 'lubax.com');
+  ga('send', 'pageview');
+</script>
+</head>
+<body>
+	<div id="pagewrap" data-nav="home">
+		<header id="header">
+			<div id="header-center">
+				<a id="site-logo" style="margin-left:2%;" href="static/index.html"><img  src="static/images/logo.png"/></a>
+				<nav>
+					<ul id="main-nav">
+						<li><a href="#home" class="nav">Home</a></li>
+						<li><a href="#about" class="nav">About</a></li>
+						<li><a href="#how" class="nav">How It Works</a></li>
+						<li><a href="#database" class="nav">Database</a> </li>
+						<li><a href="#contact" class="nav">Contact</a></li>
+					</ul>
+					<!-- /#main-nav --> 
+				</nav>
+			</div>
+		</header>
+		<!-- /#header -->
+		<div id="content">
+			<div id="panel1">
+				<div id="panel1-inside">
+					<div id="panel1-right">
+						<h1>Introducing , a web-based clinical reference to identify skin lesions</h1>
+					
+							<a href="static/upload.html" class="panel1-sq" id="sq3" style="text-decoration: none;">
+							<div class="pic-icon sq-icon"></div>
+							<div class="sq-title" style=" color: rgb(3, 3, 139);">Search</div>
+							</a>
+						<div class="clearfix"></div>
+						<h2>
+							Lets you search by picture. Just take a photo of a skin lesion and our app will search a proprietary image database of diagnosed lesions.
+						</h2>
+						
+					</div>
+					<a href="#about"><script src="https://cdn.lordicon.com/lordicon-1.1.0.js"></script>
+						<lord-icon
+							src="https://cdn.lordicon.com/rmkahxvq.json"
+							trigger="hover"
+							colors="primary:#ffffff"
+							style="width:70px;height:70px; margin-left: 47%;">
+						</lord-icon></a>
+				</div>
+			</div>
+			<!-- /#panel1 --> 
+			<div id="panel2" data-nav="about">
+				<h3 class="center-title" style="margin-bottom:50px;">About Us</h3>
+				<div class="panel-inside" style="display: flex; flex-direction: row;">
+					<div class="panel2-sq" id="sq1">
+						<div class="n-icon"><script src="https://cdn.lordicon.com/lordicon-1.1.0.js"></script>
+							<lord-icon
+								src="https://cdn.lordicon.com/xfyxpoer.json"
+								trigger="hover"
+								colors="primary:#191919"
+								style="width:150px;height:150px">
+							</lord-icon></div>
+						<div class="sq-text">
+							This web-app helps you quickly analyze a skin lesion. It works in a similar way to a textbook, where you might find an image that looks like your skin problem. But while looking this up in a textbook would take a lot of time, this web-app does it in an instant!
+						</div>
+					</div>
+					<div class="panel2-sq" id="sq2">
+						<div class="n-icon"><script src="https://cdn.lordicon.com/lordicon-1.1.0.js"></script>
+							<lord-icon
+								src="https://cdn.lordicon.com/jnikqyih.json"
+								trigger="hover"
+								colors="primary:#191919"
+								style="width:150px;height:150px">
+							</lord-icon></div>
+						<div class="sq-text">
+							Unlike traditional diagnosis methods that require manual examination and expert analysis, our application leverages deep learning models trained on a vast dataset to provide instant and accurate results.</div>
+					</div>
+					<div class="panel2-sq" id="sq3">
+						<div class="n-icon"><script src="https://cdn.lordicon.com/lordicon-1.1.0.js"></script>
+							<lord-icon
+								src="https://cdn.lordicon.com/ncitidvz.json"
+								trigger="hover"
+								colors="primary:#191919"
+								style="width:150px;height:150px">
+							</lord-icon></div>
+						<div class="sq-text">
+							Our mission is to create an accessible, cost-effective, and easy-to-use skin disease detection tool that can assist both individuals and healthcare professionals. 
+						</div>
+					</div>
+					<div class="panel2-sq" id="sq4" style="margin-right: 0">
+						<div class="n-icon"><script src="https://cdn.lordicon.com/lordicon-1.1.0.js"></script>
+							<lord-icon
+								src="https://cdn.lordicon.com/lzgmgrnn.json"
+								trigger="hover"
+								colors="primary:#191919"
+								style="width:150px;height:150px">
+							</lord-icon></div>
+						<div class="sq-text">
+							Our system's algorithm is unique among smartphone applications, using sophisticated CBIR (content based image recognition) technology to discriminate skin-lesion types. 
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<a id="panel2-down" href="#how"><script src="https://cdn.lordicon.com/lordicon-1.1.0.js"></script>
+					<lord-icon
+						src="https://cdn.lordicon.com/rmkahxvq.json"
+						trigger="hover"
+						colors="primary:#545454"
+						style="width:70px;height:70px;margin-left: 47%;">
+					</lord-icon></a>
+			</div>
+			<!-- /#panel2 --> 
+			<div id="panel3" data-nav="how">
+				<h3 class="center-title">How it Works</h3>
+				<div class="panel-inside">
+					<div id="panel3-sq1">
+						<h3>The Algorithm</h3>
+						<div id="sq3-text">
+							The algorithm works a bit like Google's image search, only ours is specifically designed for skin images. Whereas Google's image search surveys the whole internet, our algorithm uses carefully curated medical images.
+						</div>
+					</div>
+					<img id="panel3-sq2" src="static/images/algorithm.png" class="panel-img" alt="Lubax Alorithm"/>
+					<div class="clearfix"></div>
+				</div>
+				<a  href="#database"><script src="https://cdn.lordicon.com/lordicon-1.1.0.js"></script>
+					<lord-icon
+						src="https://cdn.lordicon.com/rmkahxvq.json"
+						trigger="hover"
+						colors="primary:#ffffff"
+						style="width:70px;height:70px; margin-left: 47%;">
+					</lord-icon></a>
+			</div>
+			<!-- /#panel3 --> 
+			<div id="panel3" data-nav="how">
+	<h3 class="center-title">How it Works</h3>
+	<div class="panel-inside">
+		<div id="panel3-sq1">
+			<h3>The Algorithm</h3>
+			<div id="sq3-text">
+				The algorithm processes the uploaded image by enhancing clarity and extracting key features. A CNN-based model, trained on diagnosed skin conditions, classifies it into one of seven categories. CBIR technology compares the input with similar cases in the database. It then predicts the disease with confidence scores, ensuring accurate identification.
+			</div>
+		</div>
+		<img id="panel3-sq2" src="static/images/algorithm.png" class="panel-img" alt="Lubax Alorithm"/>
+		<div class="clearfix"></div>
+	</div>
+	<a  href="#database"><script src="https://cdn.lordicon.com/lordicon-1.1.0.js"></script>
+		<lord-icon
+			src="https://cdn.lordicon.com/rmkahxvq.json"
+			trigger="hover"
+			colors="primary:#ffffff"
+			style="width:70px;height:70px; margin-left: 47%;">
+		</lord-icon></a>
+</div>
+					
+			<!-- /#panel8 --> 
+			<div id="panel7" data-nav="contact">
+				<h3 class="center-title">Contact</h3>
+				<div class="panel-inside" >
+					<div id="sq2" style="text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%;">
+						<h4>Sign up to be notified of our Clinical Trial release for Phone.</h4>
+						<div id="signup_form" style="text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; width: 50%;">
+							<input type="text" spellcheck="false" id="name" tabindex="1" placeholder="Your Name">
+							<input type="text" spellcheck="false" id="email" tabindex="2" placeholder="Your Email">
+							<button id="submit">Submit</button>
+						</div>
+						<div id="signup_done">
+							Thanks for signing up! We'll be in touch soon.
+						</div>
+					</div>
+					<div class="clearfix"></div>
+					<a href="#home"><script src="https://cdn.lordicon.com/lordicon-1.1.0.js"></script>
+						<lord-icon
+							src="https://cdn.lordicon.com/ternnbni.json"
+							trigger="hover"
+							colors="primary:#ffffff"
+							style="width:70px;height:70px;margin-left: 47%;margin-top: 50px;">
+						</lord-icon></a>
+				</div>
+			<!-- /#panel7 --> 
+		</div>
+		<!-- /#content --> 
+		<footer id="footer">
+			&copy; 2023, Inc. All rights reserved
+			<div class="panel-inside">
+				this web-app is a communication tool that provides initial comparative information about skin lesions. This information comes from the world's largest dermatology textbook database. Outcome of skin diagnose comparisons is only effective when discussed with a qualified health care provider. 
+			</div>
+		</footer>
+		<!-- /#footer --> 
+	</div>
+	<!-- /#pagewrap -->
+	</body>
+	</html>
